@@ -1,2 +1,2 @@
 # Indoor-Navigation-System-ESB-IITM
-Minor Project
+Project taken up in my minor - Assistive Technologies
