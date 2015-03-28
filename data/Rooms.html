@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="../js/script.js"></script>
+<script src="../js/Rooms_script.js"></script>
+<script src="../js/SubRooms.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width">
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+Room No:
+<input type='text' id='textbox' width='100%'>
+<datalist>
+<option>123</option>
+</datalist>
+<button id='go' onClick="gotoroomno('go');">Go</button>
+
+	<br>
+	<br>
+	<button id='one' onClick="voice('1')" ondblclick="Inputall('1');">1</button>
+	<button id='two' onClick="voice('2');" ondblclick="Inputall('2');">2</button>
+	<button id='three' onClick="voice('3');" ondblclick="Inputall('3');">3</button>
+	
+	<br>
+	<br>
+	<button id='four' onClick="voice('4');" ondblclick="Inputall('4');">4</button>
+	<button id='five' onClick="voice('5');" ondblclick="Inputall('5');">5</button>
+	<button id='six' onClick="voice('6');" ondblclick="Inputall('6');">6</button>
+	
+	<br>
+	<br>
+	<button id='seven' onClick="voice('7');" ondblclick="Inputall('7');">7</button>
+	<button id='eight' onClick="voice('8');" ondblclick="Inputall('8');">8</button>
+	<button id='nine' onClick="voice('9');" ondblclick="Inputall('9');">9</button>
+	<br>
+	<br>
+    <button id='clear_one' onClick="voice('C')" ondbclick="ClearOne();">C</button>
+    <button id='zero' onClick="voice('0')" ondbclick="Inputall('0');">0</button>
+    <button id='clear_all' onClick="voice('Clear All')" ondbclick='ClearAll()'>Clear All</button>
+	
+	<br>
+	<br>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Calculator</title>
+
+<script src="js/script.js"></script>
+<script src="js/index_start.js"></script>
+<meta name="viewport" content="width=device-width">
+</head>
+<body>
+<div>
+Instructions:
+<br>
+<button id='one_button' onClick="voice('one_button');"> Tap a button once to receive audio instructions</button>
+<br>
+<button id='two_button' onClick="voice('two_button');"> Tap a button twice to use it and listen to the audio instructions</button>
+</div>
+<div>
+<button id='Profs' onClick="voice('Profs');" onDblClick="gotopage('Profs');"> Professors</button>
+<button id='Labs' onClick="voice('Labs');" onDblClick="gotopage('Labs');"> Labs</button>
+<button id='Rooms' onClick="voice('Rooms');" onDblClick="gotopage('Rooms');"> Rooms</button>
+</div>
+</body>
+</html>
