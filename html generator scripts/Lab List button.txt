@@ -1,0 +1,38 @@
+<button id='PG Lab' onclick="voice('PG Lab');" ondbclick="gotoroom('PG Lab');">PG Lab</button>
+ <br>
+<button id='Communications Lab' onclick="voice('Communications Lab');" ondbclick="gotoroom('Communications Lab');">Communications Lab</button>
+ <br>
+<button id='Communications Systems Lab' onclick="voice('Communications Systems Lab');" ondbclick="gotoroom('Communications Systems Lab');">Communications Systems Lab</button>
+ <br>
+<button id='Control Engineering Lab' onclick="voice('Control Engineering Lab');" ondbclick="gotoroom('Control Engineering Lab');">Control Engineering Lab</button>
+ <br>
+<button id='DOE Lab' onclick="voice('DOE Lab');" ondbclick="gotoroom('DOE Lab');">DOE Lab</button>
+ <br>
+<button id='DSP Lab' onclick="voice('DSP Lab');" ondbclick="gotoroom('DSP Lab');">DSP Lab</button>
+ <br>
+<button id='FPGA Lab' onclick="voice('FPGA Lab');" ondbclick="gotoroom('FPGA Lab');">FPGA Lab</button>
+ <br>
+<button id='ME Machine Room' onclick="voice('ME Machine Room');" ondbclick="gotoroom('ME Machine Room');">ME Machine Room</button>
+ <br>
+<button id='Microelectronics Lab' onclick="voice('Microelectronics Lab');" ondbclick="gotoroom('Microelectronics Lab');">Microelectronics Lab</button>
+ <br>
+<button id='Microelectronics Office' onclick="voice('Microelectronics Office');" ondbclick="gotoroom('Microelectronics Office');">Microelectronics Office</button>
+ <br>
+<button id='Department Office' onclick="voice('Department Office');" ondbclick="gotoroom('Department Office');">Department Office</button>
+ <br>
+<button id='First Floor Stairs-Down' onclick="voice('First Floor Stairs-Down');" ondbclick="gotoroom('First Floor Stairs-Down');">First Floor Stairs-Down</button>
+ <br>
+<button id='First Floor Stairs-Up' onclick="voice('First Floor Stairs-Up');" ondbclick="gotoroom('First Floor Stairs-Up');">First Floor Stairs-Up</button>
+ <br>
+<button id='PG Computer Room' onclick="voice('PG Computer Room');" ondbclick="gotoroom('PG Computer Room');">PG Computer Room</button>
+ <br>
+<button id='Seminar Hall' onclick="voice('Seminar Hall');" ondbclick="gotoroom('Seminar Hall');">Seminar Hall</button>
+ <br>
+<button id='First Floor Gents Toilet' onclick="voice('First Floor Gents Toilet');" ondbclick="gotoroom('First Floor Gents Toilet');">First Floor Gents Toilet</button>
+ <br>
+<button id='First Floor Ladies Toilet' onclick="voice('First Floor Ladies Toilet');" ondbclick="gotoroom('First Floor Ladies Toilet');">First Floor Ladies Toilet</button>
+ <br>
+<button id='First Floor Lift' onclick="voice('First Floor Lift');" ondbclick="gotoroom('First Floor Lift');">First Floor Lift</button>
+ <br>
+<button id='First Floor Pantry' onclick="voice('First Floor Pantry');" ondbclick="gotoroom('First Floor Pantry');">First Floor Pantry</button>
+ <br>

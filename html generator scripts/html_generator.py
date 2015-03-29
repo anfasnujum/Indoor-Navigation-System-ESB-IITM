@@ -15,5 +15,3 @@ file_labs='Lab List.txt'
 button_list(file_profs)
 button_list(file_labs)
 
-    
-    

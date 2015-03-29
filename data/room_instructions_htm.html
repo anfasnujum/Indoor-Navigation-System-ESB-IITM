@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+    <html>
+    <head>
+    <link type="text/css" rel="stylesheet" href="../css/styles.css"/>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <meta charset="utf-8">
+    </head>
+    <body>
+    <h1>room_instructions_htm
+    </h1>
+    <div>
+    <button onclick="voice_content('from os import listdir');">from os import listdir</button> 
+ <br> 
+ <br><button onclick="voice_content('from os.path import isfile, join');">from os.path import isfile, join</button> 
+ <br> 
+ <br><button onclick="voice_content('import webbrowser');">import webbrowser</button> 
+ <br> 
+ <br><button onclick="voice_content('');"></button> 
+ <br> 
+ <br><button onclick="voice_content('def filenames(mypath):');">def filenames(mypath):</button> 
+ <br> 
+ <br><button onclick="voice_content('    onlyfiles = [ f for f in listdir(mypath) if isfile(join(mypath,f)) ]');">    onlyfiles = [ f for f in listdir(mypath) if isfile(join(mypath,f)) ]</button> 
+ <br> 
+ <br><button onclick="voice_content('    return onlyfiles');">    return onlyfiles</button> 
+ <br> 
+ <br><button onclick="voice_content('');"></button> 
+ <br> 
+ <br><button onclick="voice_content('mypath="C:/Users/Toshiba/Desktop/vishal iit/6th sem/Design of assistive devices/Indoor Navigation System/python scripts/esb routes/"');">mypath="C:/Users/Toshiba/Desktop/vishal iit/6th sem/Design of assistive devices/Indoor Navigation System/python scripts/esb routes/"</button> 
+ <br> 
+ <br><button onclick="voice_content('files=filenames(mypath)');">files=filenames(mypath)</button> 
+ <br> 
+ <br><button onclick="voice_content('');"></button> 
+ <br> 
+ <br><button onclick="voice_content('for i in files:');">for i in files:</button> 
+ <br> 
+ <br><button onclick="voice_content('    file_name=i[0:-4]');">    file_name=i[0:-4]</button> 
+ <br> 
+ <br><button onclick="voice_content('    room_no=file_name[3:]');">    room_no=file_name[3:]</button> 
+ <br> 
+ <br><button onclick="voice_content('    Title=file_name');">    Title=file_name</button> 
+ <br> 
+ <br><button onclick="voice_content('    f_read=open(i,'r+')');">    f_read=open(i,'r+')</button> 
+ <br> 
+ <br><button onclick="voice_content('    f=open(file_name+'.html','w+')');">    f=open(file_name+'.html','w+')</button> 
+ <br> 
+ <br><button onclick="voice_content('');"></button> 
+ <br> 
+ <br><button onclick="voice_content('    initial_html="""<!DOCTYPE HTML>');">    initial_html="""<!DOCTYPE HTML></button> 
+ <br> 
+ <br><button onclick="voice_content('    <html>');">    <html></button> 
+ <br> 
+ <br><button onclick="voice_content('    <head>');">    <head></button> 
+ <br> 
+ <br><button onclick="voice_content('    <link type="text/css" rel="stylesheet" href="../css/styles.css"/>');">    <link type="text/css" rel="stylesheet" href="../css/styles.css"/></button> 
+ <br> 
+ <br><button onclick="voice_content('    <script type="text/javascript" src="../js/script.js"></script>');">    <script type="text/javascript" src="../js/script.js"></script></button> 
+ <br> 
+ <br><button onclick="voice_content('    <meta charset="utf-8">');">    <meta charset="utf-8"></button> 
+ <br> 
+ <br><button onclick="voice_content('    </head>');">    </head></button> 
+ <br> 
+ <br><button onclick="voice_content('    <body>');">    <body></button> 
+ <br> 
+ <br><button onclick="voice_content('    <h1>"""+Title+"""');">    <h1>"""+Title+"""</button> 
+ <br> 
+ <br><button onclick="voice_content('    </h1>');">    </h1></button> 
+ <br> 
+ <br><button onclick="voice_content('    <div>');">    <div></button> 
+ <br> 
+ <br><button onclick="voice_content('    """');">    """</button> 
+ <br> 
+ <br><button onclick="voice_content('    f.write(initial_html)');">    f.write(initial_html)</button> 
+ <br> 
+ <br><button onclick="voice_content('    for content in f_read:');">    for content in f_read:</button> 
+ <br> 
+ <br><button onclick="voice_content('        content=content.replace('\n','')');">        content=content.replace('\n','')</button> 
+ <br> 
+ <br><button onclick="voice_content('        inp="""<button onclick="voice_content('"""+content+"""');">"""+content+"""</button> \n <br> \n <br>"""');">        inp="""<button onclick="voice_content('"""+content+"""');">"""+content+"""</button> \n <br> \n <br>"""</button> 
+ <br> 
+ <br><button onclick="voice_content('        f.writelines(inp)');">        f.writelines(inp)</button> 
+ <br> 
+ <br><button onclick="voice_content('    ');">    </button> 
+ <br> 
+ <br><button onclick="voice_content('    closing_html="""');">    closing_html="""</button> 
+ <br> 
+ <br><button onclick="voice_content('    </div>');">    </div></button> 
+ <br> 
+ <br><button onclick="voice_content('    </body>');">    </body></button> 
+ <br> 
+ <br><button onclick="voice_content('    </html>');">    </html></button> 
+ <br> 
+ <br><button onclick="voice_content('    """');">    """</button> 
+ <br> 
+ <br><button onclick="voice_content('    f.write(closing_html)');">    f.write(closing_html)</button> 
+ <br> 
+ <br><button onclick="voice_content('    f.close()');">    f.close()</button> 
+ <br> 
+ <br><button onclick="voice_content('');"></button> 
+ <br> 
+ <br><button onclick="voice_content('');"></button> 
+ <br> 
+ <br><button onclick="voice_content('');"></button> 
+ <br> 
+ <br><button onclick="voice_content('    ');">    </button> 
+ <br> 
+ <br>
+    </div>
+    </body>
+    </html>
+    

@@ -14,33 +14,36 @@
 Room No:
 <input type='text' id='textbox' width='100%'>
 <datalist>
-<option>123</option>
+<option>244</option>
+<option>241</option>
+<option>242</option>
+<option></option>
+<option></option>
+<option></option>
 </datalist>
-<button id='go' onClick="gotoroomno('go');">Go</button>
+<button id='go' onClick="voice_content('Go');"  ondblclick="gotoroomno();">Go</button>
+
 
 	<br>
 	<br>
-	<button id='one' onClick="voice('1')" ondblclick="Inputall('1');">1</button>
-	<button id='two' onClick="voice('2');" ondblclick="Inputall('2');">2</button>
-	<button id='three' onClick="voice('3');" ondblclick="Inputall('3');">3</button>
-	
+<button id='one' onClick="voice('one')"  ondblclick="Inputall('1');">1</button>
+<button id='two' onClick="voice('two');" ondblclick="Inputall('2');">2</button>
+<button id='three' onClick="voice('three');" ondblclick="Inputall('3');">3</button>
+<br>
+<br>
+<button id='four' onClick="voice('four');" ondblclick="Inputall('4');">4</button>
+<button id='five' onClick="voice('five');"  ondblclick="Inputall('5');">5</button>
+<button id='six' onClick="voice('six');" ondblclick="Inputall('6');">6</button>
+<br>
+<br>
+<button id='seven' onClick="voice('seven');" ondblclick="Inputall('7');">7</button>
+<button id='eight' onClick="voice('eight');"  ondblclick="Inputall('8');">8</button>
+<button id='nine' onClick="voice('nine');" ondblclick="Inputall('9');">9</button>
+    <br>
 	<br>
-	<br>
-	<button id='four' onClick="voice('4');" ondblclick="Inputall('4');">4</button>
-	<button id='five' onClick="voice('5');" ondblclick="Inputall('5');">5</button>
-	<button id='six' onClick="voice('6');" ondblclick="Inputall('6');">6</button>
-	
-	<br>
-	<br>
-	<button id='seven' onClick="voice('7');" ondblclick="Inputall('7');">7</button>
-	<button id='eight' onClick="voice('8');" ondblclick="Inputall('8');">8</button>
-	<button id='nine' onClick="voice('9');" ondblclick="Inputall('9');">9</button>
-	<br>
-	<br>
-    <button id='clear_one' onClick="voice('C')" ondbclick="ClearOne();">C</button>
-    <button id='zero' onClick="voice('0')" ondbclick="Inputall('0');">0</button>
-    <button id='clear_all' onClick="voice('Clear All')" ondbclick='ClearAll()'>Clear All</button>
-	
+    <button id='clear_one' onClick="voice('clear_one')" ondblclick="ClearOne();">C</button>
+    <button id='zero' onClick="voice('zero')" ondblclick="Inputall('0');">0</button>
+    <button id='clear_all' onClick="voice('clear_all')" ondblclick="ClearAll();">Clear All</button>
 	<br>
 	<br>
 </body>

@@ -6,13 +6,14 @@ def filenames(mypath):
     onlyfiles = [ f for f in listdir(mypath) if isfile(join(mypath,f)) ]
     return onlyfiles
 
-mypath=""
+mypath="C:/Users/Toshiba/Desktop/vishal iit/6th sem/Design of assistive devices/Indoor Navigation System/python scripts/esb routes/"
 files=filenames(mypath)
 
 for i in files:
-    file_name=i[0:6]
-    room_no=file_name=[3:6]
-    Title="ESB "+room_no
+    file_name=i[0:-4]
+    room_no=file_name[3:]
+    Title=file_name
+    f_read=open(i,'r+')
     f=open(file_name+'.html','w+')
 
     initial_html="""<!DOCTYPE HTML>
@@ -28,9 +29,10 @@ for i in files:
     <div>
     """
     f.write(initial_html)
-    for content in i:
-        inp="""<button onclick="voice('"""+content+"""');">"""+content+"""</button>"""
-        f.writelines(inp+'\n')
+    for content in f_read:
+        content=content.replace('\n','')
+        inp="""<button onclick="voice_content('"""+content+"""');">"""+content+"""</button> \n <br> \n <br>"""
+        f.writelines(inp)
     
     closing_html="""
     </div>

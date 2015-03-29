@@ -1,0 +1,19 @@
+PG Lab
+Communications Lab
+Communications Systems Lab
+Control Engineering Lab
+DOE Lab
+DSP Lab
+FPGA Lab
+ME Machine Room
+Microelectronics Lab
+Microelectronics Office
+Department Office
+First Floor Stairs-Down
+First Floor Stairs-Up
+PG Computer Room
+Seminar Hall
+First Floor Gents Toilet
+First Floor Ladies Toilet
+First Floor Lift
+First Floor Pantry
